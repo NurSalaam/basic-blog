@@ -125,7 +125,7 @@ class Comment(db.Model):
 
 
 
-# db.create_all()
+db.create_all()
 
 
 @app.route('/')
